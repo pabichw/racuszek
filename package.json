@@ -1,0 +1,26 @@
+{
+  "name": "racuszek",
+  "version": "1.0.0",
+  "description": "Gatsby.js + Headless Wordpress Test site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabichw/racuszek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabichw/racuszek/issues"
+  },
+  "homepage": "https://github.com/pabichw/racuszek#readme",
+  "dependencies": {
+    "gatsby": "^2.25.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
