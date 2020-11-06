@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { createGlobalStyle } from "styled-components"
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -7,9 +5,16 @@ const GlobalStyle = createGlobalStyle`
     --bckgPrimary: #FFFFF8;
     --bckgSecondary: #211806;
     --fontDarkPrimary: #FFFFFF;
-    --fontDarkSecondary: rgba(255, 255, 255, 0.51);
+    --fontDarkSecondary: rgba(0, 0, 0, 0.51);
   }
   * {
+    padding: 0;
+    margin: 0;
+    
+    font-family: Montserrat;
+  }
+  
+  html,body {
     padding: 0;
     margin: 0;
   }

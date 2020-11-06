@@ -46,14 +46,14 @@ const Options = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  font-family: MontserratBold;
-  font-size: 16px;
 `
 
 const Option = styled.li`
   width: 197px;
   text-align: center;
+  
+  font-family: MontserratBold;
+  font-size: 16px;
   
   @media screen and (max-width: ${BREAKPOINTS.TABLET}) {
     width: 100px;
@@ -67,6 +67,7 @@ const LogoWrapper = styled.div`
     content: '',
     position: absolute;
     left:0;
+    top: 0;
     height: 9px;
     width: 9px;
     background: red;
