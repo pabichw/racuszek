@@ -1,7 +1,7 @@
 import React from "react"
 import styled from 'styled-components';
 import Page from "../components/Page";
-import {NAV} from "../utils/styling";
+import {BREAKPOINTS, NAV} from "../utils/styling";
 import Layout from "../components/layout";
 import Fade from "react-reveal";
 import Button from "../components/Button";
@@ -43,17 +43,32 @@ const Content = styled.header`
   width: 100%;
   height: calc(100vh - ${NAV.height});
   
+  @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
+    flex-direction: column;
+  }
 `;
 
 const Left = styled.div`
   margin-right: 100px;
+  
+  @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
+    margin-right: 0;
+  }
 `;
 
-const Right = styled.div``;
+const Right = styled.div`
+  @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
+    margin-top: 30px;
+  }
+`;
 
 const Title = styled.h1`
   font-family: LilyScriptOne;
   font-size: 50px;
+  
+  @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
+    text-align: center;
+  }
 `
 
 const Subtitle = styled.h3`
@@ -61,6 +76,10 @@ const Subtitle = styled.h3`
   font-size: 16px;
   margin-top: 34px;
   line-height: 1.6em;
+  
+  @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
+    text-align: center;
+  }
 `
 
 const ImageWrapper = styled.div`
@@ -88,4 +107,11 @@ const Shadow = styled.div`
 
 const ButtonWrapper = styled.div`
   margin-top: 34px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  
+  @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
+    justify-content: center;
+  }
 `;
