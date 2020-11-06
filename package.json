@@ -20,7 +20,10 @@
   "homepage": "https://github.com/pabichw/racuszek#readme",
   "dependencies": {
     "gatsby": "^2.25.2",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-reveal": "^1.2.2",
+    "styled-components": "^5.2.1"
   }
 }
