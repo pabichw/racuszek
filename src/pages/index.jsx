@@ -1,13 +1,12 @@
 import React from "react"
 import styled from 'styled-components';
 import TopBar from "../components/TopBar";
-import GlobalStyles from "../components/__globalStyles";
 import Page from "../components/Page";
 import {NAV} from "../utils/styling";
 
 export default function Home() {
   return (
-    <GlobalStyles>
+    <>
       <TopBar/>
       <Page customStyle={`background: red;`}>
         <Content>
@@ -20,7 +19,7 @@ export default function Home() {
           </Right>
         </Content>
       </Page>
-    </GlobalStyles>
+    </>
   )
 }
 
