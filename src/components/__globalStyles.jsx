@@ -1,15 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const GlobalStyles = ({children}) => {
-  return (
-    <Wrap>
-      {children}
-    </Wrap>
-  );
-};
-
-const Wrap = styled.div`
+import { createGlobalStyle } from "styled-components"
+const GlobalStyle = createGlobalStyle`
   :root {
     --primary: #F8B52F;
     --bckgPrimary: #FFFFF8;
@@ -21,7 +13,6 @@ const Wrap = styled.div`
     padding: 0;
     margin: 0;
   }
-
 `
 
-export default GlobalStyles;
+export default GlobalStyle;

@@ -9,6 +9,7 @@ module.exports = {
             urls: ["/fonts/fonts.css"],
         },
       },
-    }
+    },
+    `gatsby-plugin-styled-components`
   ]
 }
