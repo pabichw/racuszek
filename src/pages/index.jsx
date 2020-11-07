@@ -45,6 +45,7 @@ const Content = styled.header`
   
   @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
     flex-direction: column;
+    margin-top: 3r5px;
   }
 `;
 
@@ -68,6 +69,8 @@ const Title = styled.h1`
   
   @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
     text-align: center;
+    font-size: 32px;
+
   }
 `
 
@@ -79,6 +82,9 @@ const Subtitle = styled.h3`
   
   @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
     text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+
   }
 `
 
@@ -113,5 +119,6 @@ const ButtonWrapper = styled.div`
   
   @media screen and (max-width: ${BREAKPOINTS.MOBILE}) {
     justify-content: center;
+    margin-top: 20px;
   }
 `;

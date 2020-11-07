@@ -23,10 +23,12 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.25.2",
+    "gatsby-plugin-anchor-links": "^1.2.0",
     "gatsby-plugin-preload-fonts": "^1.2.30",
     "gatsby-plugin-styled-components": "^3.3.14",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "^17.0.1",
+    "react-burger-menu": "^2.9.0",
     "react-dom": "^17.0.1",
     "react-reveal": "^1.2.2",
     "styled-components": "^5.2.1"

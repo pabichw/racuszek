@@ -11,6 +11,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-preload-fonts`
+    `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-anchor-links`,
   ]
 }
