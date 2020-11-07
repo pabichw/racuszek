@@ -31,6 +31,7 @@ const CustomButton = styled.button`
   font-family: MontserratBold;
   
   cursor: pointer;
+  box-shadow: #000 0 2px 0 4px;
   
   &: hover {
     opacity: 0.8;
