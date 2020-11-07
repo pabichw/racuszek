@@ -5,6 +5,7 @@ import {BREAKPOINTS, NAV} from "../utils/styling";
 import Layout from "../components/layout";
 import Fade from "react-reveal";
 import Button from "../components/Button";
+import ScrollIncent from "../components/ScrollIncent";
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
               </ImageWrapper>
             </Fade>
           </Right>
+          <ScrollIncentWrapper>
+            <ScrollIncent/>
+          </ScrollIncentWrapper>
         </Content>
       </Page>
     </Layout>
@@ -38,6 +42,7 @@ export default function Home() {
 
 const Content = styled.header`
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -122,3 +127,12 @@ const ButtonWrapper = styled.div`
     margin-top: 20px;
   }
 `;
+
+const ScrollIncentWrapper = styled.div`
+  position: absolute;
+  bottom: 10px;
+  height: 65px;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+`
