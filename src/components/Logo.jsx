@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-const Logo = () => {
+const Logo = (props) => {
   return (
-    <Content>
+    <Content {...props}>
       LOGO
     </Content>
   );
@@ -15,6 +15,7 @@ const Content = styled.div`
   text-align: center;
   font-family: LilyScriptOne;
   font-size: 32px;
+  color: ${props => props.white ? 'white' : 'black'};
   
   &::after {
     content: '';

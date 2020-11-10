@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
     --primary: #F8B52F;
     --bckgPrimary: #FFFFF8;
     --bckgSecondary: #211806;
+    --bckgFooter: #211806;
     --fontDarkPrimary: #FFFFFF;
     --fontDarkSecondary: rgba(0, 0, 0, 0.51);
   }

@@ -20,7 +20,7 @@ const CallUs = () => (
 
 const CallWrapper = styled.div`
   position: fixed;
-  right: 10px;
+  right: 26px;
   top: 5px;
   text-align: right;
 `;
